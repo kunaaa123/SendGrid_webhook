@@ -337,3 +337,183 @@
 2025/06/12 18:19:27 📨 Event: bounce | Email: 651463018@crru.ac.th55 | Status:  | Time: 1749727165
 2025/06/12 18:19:27 ⚠️ Important event detected: bounce
 2025/06/12 18:19:28 ✅ Notification sent successfully
+2025/06/12 20:28:00 [INFO] Server starting port=:8080
+2025/06/12 20:37:10 [INFO] Server starting port=:8080
+2025/06/12 20:42:03 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:42:03 [ERROR] Event handling failed event=deferred email=651463018@crru.ac.thhhhhh error=database error
+2025/06/12 20:42:03 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:42:03 [ERROR] Event handling failed event=processed email=651463018@crru.ac.thhhhhh error=database error
+2025/06/12 20:42:06 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:42:06 [ERROR] Event handling failed event=delivered email=651463018@crru.ac.th error=database error
+2025/06/12 20:42:06 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:42:06 [ERROR] Event handling failed event=processed email=651463018@crru.ac.th error=database error
+2025/06/12 20:42:33 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:42:33 [ERROR] Event handling failed event=deferred email=651463018@crru.ac.thhhhhh error=database error
+2025/06/12 20:43:03 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:43:03 [ERROR] Event handling failed event=deferred email=651463018@crru.ac.thhhhhh error=database error
+2025/06/12 20:45:02 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:45:02 [ERROR] Event handling failed event=deferred email=651463018@crru.ac.thhhhhh error=database error
+2025/06/12 20:48:03 [ERROR] Database error error=Error 1045 (28000): Access denied for user 'user'@'localhost' (using password: YES)
+2025/06/12 20:48:03 [ERROR] Event handling failed event=bounce email=651463018@crru.ac.thhhhhh error=database error
+2025/06/12 20:51:54 [INFO] Server starting port=:8080
+2025/06/12 20:52:13 [INFO] Event processed event=deferred email=651463018@crru.ac.thhhhhh timestamp=1749736324
+2025/06/12 20:52:13 [INFO] Event processed event=processed email=651463018@crru.ac.thhhhhh timestamp=1749736324
+2025/06/12 20:52:15 [INFO] Event processed event=processed email=651463018@crru.ac.th timestamp=1749736332
+2025/06/12 20:52:25 [INFO] Event processed event=delivered email=651463018@crru.ac.th timestamp=1749736335
+2025/06/12 20:52:42 [INFO] Event processed event=deferred email=651463018@crru.ac.thhhhhh timestamp=1749736354
+2025/06/12 20:53:15 [INFO] Event processed event=deferred email=651463018@crru.ac.xn--th-7siaa timestamp=1749736389
+2025/06/12 20:53:15 [INFO] Event processed event=processed email=651463018@crru.ac.xn--th-7siaa timestamp=1749736389
+2025/06/12 20:53:35 [INFO] Event processed event=deferred email=651463018@crru.ac.xn--th-7siaa timestamp=1749736408
+2025/06/12 20:54:02 [INFO] Event processed event=deferred email=651463018@crru.ac.thhhhhh timestamp=1749736433
+2025/06/12 20:54:55 [INFO] Event processed event=deferred email=651463018@crru.ac.xn--th-7siaa timestamp=1749736486
+2025/06/12 20:55:22 [INFO] Event processed event=deferred email=651463018@crru.ac.thhhhhh timestamp=1749736515
+2025/06/12 20:55:35 [INFO] Event processed event=deferred email=651463018@crru.ac.xn--th-7siaa timestamp=1749736534
+2025/06/12 20:56:23 [INFO] Event processed event=bounce email=651463018@crru.ac.thhhhhh timestamp=1749736576
+2025/06/12 20:58:26 [INFO] Event processed event=bounce email=651463018@crru.ac.xn--th-7siaa timestamp=1749736694
+2025/06/12 21:02:17 2025-06-12 21:02:17 [Server starting] port=:8080
+2025/06/12 21:03:06 2025-06-12 21:03:06 [SendGrid Event] type=delivered email=651463018@crru time=2025-06-12 21:02:59
+2025/06/12 21:06:41 2025-06-12 21:06:41 [SendGrid Event] type=delivered email=651463018@crru time=2025-06-12 21:06:31
+2025/06/12 21:06:52 2025-06-12 21:06:52 [SendGrid Event] type=bounce email=651463018@crru time=2025-06-12 21:06:47
+2025/06/12 21:13:38 2025-06-12 21:13:38 [SendGrid Event] type=bounce email=651463018@crru time=2025-06-12 21:13:36
+2025/06/12 21:16:32 2025-06-12 21:16:32 [Server starting] port=:8080
+2025/06/12 21:16:59 2025-06-12 21:16:59 [SendGrid Event] type=delivered email=651463018@crru.ac.th time=2025-06-12 21:16:50
+2025/06/12 21:20:33 2025-06-12 21:20:33 [SendGrid Event] type=open email=651463018@crru.ac.th time=2025-06-12 20:17:29
+2025/06/12 21:20:45 2025-06-12 21:20:45 [SendGrid Event] type=open email=651463018@crru.ac.th time=2025-06-12 20:17:29
+2025/06/12 21:20:59 2025-06-12 21:20:59 [SendGrid Event] type=open email=651463018@crru.ac.th time=2025-06-12 20:17:28
+2025/06/12 21:21:05 2025-06-12 21:21:05 [SendGrid Event] type=open email=651463018@crru.ac.th time=2025-06-12 20:17:29
+2025/06/12 21:21:58 2025-06-12 21:21:58 [SendGrid Event] type=bounce email=651463018@crru.ac.th555 time=2025-06-12 21:21:56
+2025/06/12 21:39:45 2025-06-12 21:39:45 [Server starting] port=:8080
+2025/06/12 21:44:23 [ERROR] Invalid signature signature=signature timestamp=timestamp
+2025/06/12 21:45:21 [ERROR] Invalid signature signature=MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/ZDNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg== timestamp=1686558000
+2025/06/12 21:45:28 [ERROR] Invalid signature signature=MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/ZDNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg== timestamp=1686558000
+2025/06/12 21:49:10 2025-06-12 21:49:10 [Server starting] port=:8080
+2025/06/12 21:49:26 [ERROR] Invalid signature signature=MEUCIQCtXR9vnz1hp4d/LdZqCUr48bJZKM88q7EbA6gHEA+1xQIgBrTVmqdr1rEcGJ0zXS0nFqEL6SSi5DUTrUL7vxKjvZE= timestamp=1749739766
+2025/06/12 21:49:26 [ERROR] Invalid signature signature=invalid_signature timestamp=1749739766
+2025/06/12 21:53:42 2025-06-12 21:53:42 [Server starting] port=:8080
+2025/06/12 21:54:18 [ERROR] Missing signature headers
+2025/06/12 21:54:18 [ERROR] Missing signature headers
+2025/06/12 21:54:40 [ERROR] Missing signature headers
+2025/06/12 21:54:40 [ERROR] Missing signature headers
+2025/06/12 21:56:00 2025-06-12 21:56:00 [Server starting] port=:8080
+2025/06/12 21:56:09 [ERROR] Invalid signature signature=MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/ZDNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg== timestamp=1749740169
+2025/06/12 21:56:09 [ERROR] Invalid signature signature=invalid_signature timestamp=1749740169
+2025/06/12 22:00:26 [ERROR] Invalid signature signature=MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/ZDNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg== timestamp=1749740426
+2025/06/12 22:00:26 [ERROR] Invalid signature signature=invalid_signature timestamp=1749740426
+2025/06/12 22:01:34 [ERROR] Invalid signature signature=MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/ZDNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg== timestamp=1749740494
+2025/06/12 22:05:14 2025-06-12 22:05:14 [SendGrid Event] type=delivered email=example@test.com time=2025-06-12 22:05:13
+2025/06/12 22:05:14 2025-06-12 22:05:14 [SendGrid Event] type=open email=example@test.com time=2025-06-12 22:05:13
+2025/06/12 22:05:14 2025-06-12 22:05:14 [SendGrid Event] type=click email=example@test.com time=2025-06-12 22:05:13
+2025/06/12 22:05:14 2025-06-12 22:05:14 [SendGrid Event] type=bounce email=example@test.com time=2025-06-12 22:05:13
+2025/06/12 22:17:31 2025-06-12 22:17:31 [SendGrid Event] type=delivered email=example@test.com time=2025-06-12 22:17:31
+2025/06/12 22:17:31 2025-06-12 22:17:31 [SendGrid Event] type=open email=example@test.com time=2025-06-12 22:17:31
+2025/06/12 22:17:31 2025-06-12 22:17:31 [SendGrid Event] type=click email=example@test.com time=2025-06-12 22:17:31
+2025/06/12 22:17:31 2025-06-12 22:17:31 [SendGrid Event] type=bounce email=example@test.com time=2025-06-12 22:17:31
+2025/06/12 22:18:48 [ERROR] Missing signature headers
+2025/06/12 22:20:09 2025-06-12 22:20:09 [SendGrid Event] type=open email=651463018@crru.ac.th time=2025-06-12 02:16:14
+2025/06/12 22:20:19 2025-06-12 22:20:19 [SendGrid Event] type=open email=651463018@crru.ac.th time=2025-06-12 02:16:13
+2025/06/12 22:20:54 [ERROR] Missing signature headers
+2025/06/12 22:21:47 [ERROR] Invalid signature signature=MEUCIQCtXR9vmYBAr0c0nX8TNh4mJXzXN+aU0ZQ+SQgzXhi1xwIgN0/qeYzYRwQQbY1/xb5jGkHth5+2Ey+Ch+IJPuXqX8w= timestamp=1686556800
+2025/06/12 22:22:05 [ERROR] Invalid signature signature=MEUCIQCtXR9vmYBAr0c0nX8TNh4mJXzXN+aU0ZQ+SQgzXhi1xwIgN0/qeYzYRwQQbY1/xb5jGkHth5+2Ey+Ch+IJPuXqX8w= timestamp=1686556800
+2025/06/12 22:23:00 2025-06-12 22:23:00 [Server starting] port=:8080
+2025/06/12 22:42:50 2025-06-12 22:42:50 [Server starting] port=:8080
+2025/06/12 22:43:10 2025-06-12 22:43:10 [Invalid signature] 
+2025/06/12 22:43:46 2025-06-12 22:43:46 [Invalid signature] 
+2025/06/12 22:44:47 2025-06-12 22:44:47 [Server starting] port=:8080
+2025/06/12 22:45:34 2025-06-12 22:45:34 [Invalid signature] 
+2025/06/12 22:48:19 2025-06-12 22:48:19 [Invalid signature] 
+2025/06/12 22:54:34 2025-06-12 22:54:34 [Server starting] port=:8080
+2025/06/12 22:54:46 2025-06-12 22:54:46 [SendGrid Event] type=delivered email=example@test time=2025-06-12 22:54:45
+2025/06/12 22:54:46 2025-06-12 22:54:46 [SendGrid Event] type=open email=example@test time=2025-06-12 22:54:45
+2025/06/12 22:54:46 2025-06-12 22:54:46 [SendGrid Event] type=click email=example@test time=2025-06-12 22:54:45
+2025/06/12 22:54:46 2025-06-12 22:54:46 [SendGrid Event] type=bounce email=example@test time=2025-06-12 22:54:45
+2025/06/12 22:55:00 2025-06-12 22:55:00 [SendGrid Event] type=delivered email=example@test time=2025-06-12 22:54:59
+2025/06/12 22:55:00 2025-06-12 22:55:00 [SendGrid Event] type=open email=example@test time=2025-06-12 22:54:59
+2025/06/12 22:55:00 2025-06-12 22:55:00 [SendGrid Event] type=click email=example@test time=2025-06-12 22:54:59
+2025/06/12 22:55:00 2025-06-12 22:55:00 [SendGrid Event] type=bounce email=example@test time=2025-06-12 22:54:59
+2025/06/12 22:55:36 2025-06-12 22:55:36 [SendGrid Event] type=delivered email=example@test time=2025-06-12 22:55:36
+2025/06/12 22:55:36 2025-06-12 22:55:36 [SendGrid Event] type=open email=example@test time=2025-06-12 22:55:36
+2025/06/12 22:55:36 2025-06-12 22:55:36 [SendGrid Event] type=click email=example@test time=2025-06-12 22:55:36
+2025/06/12 22:55:36 2025-06-12 22:55:36 [SendGrid Event] type=bounce email=example@test time=2025-06-12 22:55:36
+2025/06/12 22:55:44 2025-06-12 22:55:44 [Server starting] port=:8080
+2025/06/12 22:55:48 2025-06-12 22:55:48 [SendGrid Event] type=delivered email=example@test time=2025-06-12 22:55:48
+2025/06/12 22:55:48 2025-06-12 22:55:48 [SendGrid Event] type=open email=example@test time=2025-06-12 22:55:48
+2025/06/12 22:55:48 2025-06-12 22:55:48 [SendGrid Event] type=click email=example@test time=2025-06-12 22:55:48
+2025/06/12 22:55:48 2025-06-12 22:55:48 [SendGrid Event] type=bounce email=example@test time=2025-06-12 22:55:48
+2025/06/12 23:00:55 2025-06-12 23:00:55 [Server starting] port=:8080
+2025/06/12 23:01:00 2025-06-12 23:01:00 [SendGrid Event] type=delivered email=example@test time=2025-06-12 23:01:00
+2025/06/12 23:01:00 2025-06-12 23:01:00 [SendGrid Event] type=open email=example@test time=2025-06-12 23:01:00
+2025/06/12 23:01:00 2025-06-12 23:01:00 [SendGrid Event] type=click email=example@test time=2025-06-12 23:01:00
+2025/06/12 23:01:00 2025-06-12 23:01:00 [SendGrid Event] type=bounce email=example@test time=2025-06-12 23:01:00
+2025/06/12 23:02:56 2025-06-12 23:02:56 [Server starting] port=:8080
+2025/06/12 23:03:28 2025-06-12 23:03:28 [SendGrid Event] type=delivered email=example@test time=2025-06-12 23:03:27
+2025/06/12 23:03:28 2025-06-12 23:03:28 [SendGrid Event] type=open email=example@test time=2025-06-12 23:03:27
+2025/06/12 23:03:28 2025-06-12 23:03:28 [SendGrid Event] type=click email=example@test time=2025-06-12 23:03:27
+2025/06/12 23:03:28 2025-06-12 23:03:28 [SendGrid Event] type=bounce email=example@test time=2025-06-12 23:03:27
+2025/06/12 23:06:22 2025-06-12 23:06:22 [INFO] Server starting port=:8080
+2025/06/12 23:07:02 2025-06-12 23:07:02 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:07:02
+2025/06/12 23:07:02 2025-06-12 23:07:02 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:07:02
+2025/06/12 23:07:02 2025-06-12 23:07:02 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:07:02
+2025/06/12 23:07:02 2025-06-12 23:07:02 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:07:02
+2025/06/12 23:07:03 2025-06-12 23:07:03 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/12 23:07:32 2025-06-12 23:07:32 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:07:31
+2025/06/12 23:07:32 2025-06-12 23:07:32 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:07:31
+2025/06/12 23:07:32 2025-06-12 23:07:32 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:07:31
+2025/06/12 23:07:32 2025-06-12 23:07:32 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:07:31
+2025/06/12 23:07:32 2025-06-12 23:07:32 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/12 23:18:18 2025-06-12 23:18:18 [INFO] Server starting port=:8080
+2025/06/12 23:18:40 2025-06-12 23:18:40 [INFO] Server starting port=:8080
+2025/06/12 23:18:56 2025-06-12 23:18:56 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:18:55
+2025/06/12 23:18:56 2025-06-12 23:18:56 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:18:55
+2025/06/12 23:18:56 2025-06-12 23:18:56 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:18:55
+2025/06/12 23:18:56 2025-06-12 23:18:56 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:18:55
+2025/06/12 23:18:56 2025-06-12 23:18:56 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/12 23:24:01 2025-06-12 23:24:01 [INFO] Server starting port=:8080
+2025/06/12 23:24:08 2025-06-12 23:24:08 [INFO] Signature Verification Headers signature=MEUCIQClTdoLy2/9PPwuBSy736WG4glJB5l8znesq7ZnS8fxaQIgZw2Dsa6lLDmnjOv147NvYgTbwIucmkFOe1GL3hYEiHU= timestamp=1749745447
+2025/06/12 23:24:08 2025-06-12 23:24:08 [WARN] Signature verification skipped - no public key configured 
+2025/06/12 23:24:08 2025-06-12 23:24:08 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:24:07
+2025/06/12 23:24:08 2025-06-12 23:24:08 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:24:07
+2025/06/12 23:24:08 2025-06-12 23:24:08 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:24:07
+2025/06/12 23:24:08 2025-06-12 23:24:08 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:24:07
+2025/06/12 23:24:08 2025-06-12 23:24:08 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/12 23:28:12 2025-06-12 23:28:12 [INFO] Config loaded public_key_configured=false
+2025/06/12 23:28:12 2025-06-12 23:28:12 [INFO] Server starting port=:8080
+2025/06/12 23:28:43 2025-06-12 23:28:43 [INFO] Config loaded public_key_configured=false
+2025/06/12 23:28:43 2025-06-12 23:28:43 [INFO] Server starting port=:8080
+2025/06/12 23:29:03 2025-06-12 23:29:03 [INFO] Config loaded public_key_configured=false
+2025/06/12 23:29:03 2025-06-12 23:29:03 [INFO] Server starting port=:8080
+2025/06/12 23:29:11 2025-06-12 23:29:11 [INFO] Signature Verification Headers signature=MEUCIDFkQJ8RWQka4PqZq2NUYNRS/x6he84+i+Np24VV7R3aAiEAqYlRSTSK2drOl59ccBFS3NA7i7LN/Ws32MBbgAoMwwY= timestamp=1749745751
+2025/06/12 23:29:11 2025-06-12 23:29:11 [WARN] Signature verification skipped - no public key configured 
+2025/06/12 23:29:11 2025-06-12 23:29:11 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:29:11
+2025/06/12 23:29:11 2025-06-12 23:29:11 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:29:11
+2025/06/12 23:29:11 2025-06-12 23:29:11 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:29:11
+2025/06/12 23:29:11 2025-06-12 23:29:11 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:29:11
+2025/06/12 23:29:12 2025-06-12 23:29:12 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/12 23:32:10 2025-06-12 23:32:10 [INFO] Config loaded public_key_configured=false
+2025/06/12 23:32:10 2025-06-12 23:32:10 [INFO] Server starting port=:8080
+2025/06/12 23:32:37 2025-06-12 23:32:37 [INFO] Signature Verification Headers signature=MEYCIQCw4oGR3oXxBOwaA/pJWF0Sc6Z2cLIbwS9c2F70zOUcOAIhAPZaOixD8XSV0qN6ApfuOZ3W86QxK1mXqZPXPhFMM+BJ timestamp=1749745957
+2025/06/12 23:32:37 2025-06-12 23:32:37 [WARN] Signature verification skipped - no public key configured 
+2025/06/12 23:32:37 2025-06-12 23:32:37 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:32:37
+2025/06/12 23:32:37 2025-06-12 23:32:37 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:32:37
+2025/06/12 23:32:37 2025-06-12 23:32:37 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:32:37
+2025/06/12 23:32:37 2025-06-12 23:32:37 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:32:37
+2025/06/12 23:32:38 2025-06-12 23:32:38 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/12 23:36:18 2025-06-12 23:36:18 [INFO] Public Key Detail key_length=0 has_key=false raw_key=
+2025/06/12 23:36:18 2025-06-12 23:36:18 [INFO] Config loaded public_key_configured=false
+2025/06/12 23:36:18 2025-06-12 23:36:18 [INFO] Server starting port=:8080
+2025/06/12 23:36:37 2025-06-12 23:36:37 [INFO] Public Key Detail key_length=0 has_key=false raw_key=
+2025/06/12 23:36:37 2025-06-12 23:36:37 [INFO] Config loaded public_key_configured=false
+2025/06/12 23:36:37 2025-06-12 23:36:37 [INFO] Server starting port=:8080
+2025/06/12 23:38:51 2025-06-12 23:38:51 [INFO] Public Key Detail key_length=177 has_key=true raw_key=-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/Z
+DNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg==
+-----END PUBLIC KEY-----
+2025/06/12 23:38:51 2025-06-12 23:38:51 [INFO] Config loaded public_key_configured=true
+2025/06/12 23:38:51 2025-06-12 23:38:51 [INFO] Server starting port=:8080
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] Signature Verification Headers signature=MEUCIQDmT6y/JzreKqtZWA+fjVT/m0m3fo9IeZwufkPpoTGZdAIgK9816opecleFVMMgXfAXGCMyyuQPYEsmFwixh1ENVDY= timestamp=1749746341
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] Starting signature verification public_key_configured=true
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] Signature verification successful signature_valid=true
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-12 23:39:01
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-12 23:39:01
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:39:01
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:39:01
+2025/06/12 23:39:02 2025-06-12 23:39:02 [INFO] Notification sent event=bounce email=example@test.com
