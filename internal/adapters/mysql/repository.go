@@ -18,7 +18,6 @@ func NewRepository(dsn string) (*Repository, error) {
 		return nil, fmt.Errorf("failed to open database: %w", err)
 	}
 
-	// เพิ่มการ ping database เพื่อตรวจสอบการเชื่อมต่อ
 	if err := db.Ping(); err != nil {
 		return nil, fmt.Errorf("failed to ping database: %w", err)
 	}
@@ -27,7 +26,7 @@ func NewRepository(dsn string) (*Repository, error) {
 }
 
 func (r *Repository) SaveEvent(event domain.SendgridEvent) error {
-	// เพิ่มการ validate ข้อมูลก่อนบันทึก
+
 	if event.Email == "" || event.Event == "" || event.Timestamp == 0 {
 		return domain.ErrInvalidEvent
 	}
@@ -41,7 +40,7 @@ func (r *Repository) SaveEvent(event domain.SendgridEvent) error {
 }
 
 func (r *Repository) GetEventsByEmail(email string) ([]domain.SendgridEvent, error) {
-	// เพิ่มการ validate email
+
 	if email == "" {
 		return nil, domain.ErrInvalidEvent
 	}
@@ -66,7 +65,6 @@ func (r *Repository) GetEventsByEmail(email string) ([]domain.SendgridEvent, err
 		events = append(events, event)
 	}
 
-	// เพิ่มการตรวจสอบ error จาก rows.Next()
 	if err := rows.Err(); err != nil {
 		return nil, fmt.Errorf("error iterating rows: %w", err)
 	}

@@ -32,18 +32,16 @@ func isMainEvent(eventType string) bool {
 }
 
 func (s *EventService) HandleEvent(event domain.SendgridEvent) error {
-	// เช็คว่าเป็น event หลักหรือไม่
+
 	if !isMainEvent(event.Event) {
-		return nil // ข้าม events ที่ไม่สำคัญ
+		return nil
 	}
 
-	// Log เฉพาะข้อมูลสำคัญ
 	s.logger.Info("SendGrid Event",
 		"event", event.Event,
 		"email", event.Email,
 		"timestamp", time.Unix(event.Timestamp, 0).Format("2006-01-02 15:04:05"))
 
-	// Save to database
 	if err := s.repository.SaveEvent(event); err != nil {
 		s.logger.Error("Failed to save event",
 			"error", err,
@@ -70,7 +68,7 @@ func (s *EventService) HandleEvent(event domain.SendgridEvent) error {
 }
 
 func cleanEmailAddress(email string) string {
-	// ตัด suffix ที่ไม่ต้องการออก เช่น .7siaa
+
 	if idx := strings.Index(email, "."); idx != -1 {
 		email = email[:idx]
 	}

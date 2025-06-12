@@ -30,7 +30,6 @@ func (l *Logger) Error(msg string, keysAndValues ...interface{}) {
 	l.log("ERROR", msg, keysAndValues...)
 }
 
-// เพิ่มเมธอด Warn
 func (l *Logger) Warn(msg string, keysAndValues ...interface{}) {
 	l.log("WARN", msg, keysAndValues...)
 }
@@ -52,6 +51,5 @@ func (l *Logger) log(level, msg string, keysAndValues ...interface{}) {
 		msg,
 		strings.Join(fields, " "))
 
-	// แก้ไขการ log ให้เขียนลงไฟล์
 	l.logger.Println(logMsg)
 }
