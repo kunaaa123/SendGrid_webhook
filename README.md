@@ -137,7 +137,7 @@ ngrok http 8080 ## ติดตั้ง Ngrok เพื่อทำให้เ
   #  ตัวอย่างข้อมูล
 
 ```markdown
-<img src="./poto/sendgrid.png" width="300" height="200" alt="sendgrid"/>
+![sendgrid.png](./poto/sendgrid.png)
 ```
 
 
