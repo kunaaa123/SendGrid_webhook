@@ -6,3 +6,101 @@
 2025/06/12 23:58:03 2025-06-12 23:58:03 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-12 23:58:02
 2025/06/12 23:58:03 2025-06-12 23:58:03 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-12 23:58:02
 2025/06/12 23:58:03 2025-06-12 23:58:03 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/13 05:52:35 2025-06-13 05:52:35 [INFO] Public Key Detail key_length=177 has_key=true raw_key=-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/Z
+DNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg==
+-----END PUBLIC KEY-----
+2025/06/13 05:52:35 2025-06-13 05:52:35 [INFO] Config loaded public_key_configured=true
+2025/06/13 05:52:35 2025-06-13 05:52:35 [ERROR] Failed to initialize repository error=failed to ping database: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2025/06/13 05:53:42 2025-06-13 05:53:42 [INFO] Public Key Detail key_length=177 has_key=true raw_key=-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkhVH+7aw/HuKsr+71y5hmYdR4a/Z
+DNGH9HdB8sOC9f9QQwRsSr4nzi4MiG6as9RyZMLiET9N00CYwNesYcA4Eg==
+-----END PUBLIC KEY-----
+2025/06/13 05:53:42 2025-06-13 05:53:42 [INFO] Config loaded public_key_configured=true
+2025/06/13 05:53:42 2025-06-13 05:53:42 [INFO] Server starting port=:8080
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] Signature Verification Headers signature=MEUCIQDCDiXOdXh1yr/PEasbssZAcRiTLfYq18LfUYkY7mVE4gIgNmm9wrixxtWY9GWqZnc4/0iunIN3H48DppNpQxbio5A= timestamp=1749768931
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] Signature verification successful signature_valid=true
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-13 05:55:31
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-13 05:55:31
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-13 05:55:31
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-13 05:55:31
+2025/06/13 05:55:31 2025-06-13 05:55:31 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/13 05:56:53 2025-06-13 05:56:53 [INFO] Config loaded public_key_configured=true
+2025/06/13 05:56:53 2025-06-13 05:56:53 [INFO] Server starting port=:8080
+2025/06/13 05:59:39 2025-06-13 05:59:39 [INFO] Signature Verification Headers signature=MEQCICOIkFHzooAYOAxVCiLhb2zV6po1HLYpwb1gyeun70zYAiBoNRXRvcCVC7+n42M2FpDdgbNPrzNhc8dMxa/zw5qJbA== timestamp=1749769179
+2025/06/13 05:59:39 2025-06-13 05:59:39 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 05:59:39 2025-06-13 05:59:39 [INFO] Signature verification successful signature_valid=true
+2025/06/13 05:59:39 2025-06-13 05:59:39 [INFO] SendGrid Event event=delivered email=651463018@crru.ac.th timestamp=2025-06-13 05:59:37
+2025/06/13 06:03:49 2025-06-13 06:03:49 [INFO] Signature Verification Headers signature=MEQCICcMDPWjSrTBotVDJmaJnQoCc7GINalmayFJUZGlOkJEAiBpSwymhCfyhGYez4n1tNxmmAciW+1nCidDFtC6Myp1aw== timestamp=1749769429
+2025/06/13 06:03:49 2025-06-13 06:03:49 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:03:49 2025-06-13 06:03:49 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:03:49 2025-06-13 06:03:49 [INFO] SendGrid Event event=delivered email=651463018@crru.ac.th timestamp=2025-06-13 06:03:44
+2025/06/13 06:06:10 2025-06-13 06:06:10 [INFO] Signature Verification Headers signature=MEQCIEfDecsex8JtCEcH4BNMykFUlEbSwwbR3Y2J8bfQ3e4KAiAf2dXJyyloek+ZLCrwNFZngtSTxO3bxreUrpxXIIYrlg== timestamp=1749769570
+2025/06/13 06:06:10 2025-06-13 06:06:10 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:06:10 2025-06-13 06:06:10 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:06:10 2025-06-13 06:06:10 [INFO] SendGrid Event event=open email=651463018@crru.ac.th timestamp=2025-06-13 06:06:08
+2025/06/13 06:06:13 2025-06-13 06:06:13 [INFO] Signature Verification Headers signature=MEUCIQD9ZN01WU1MTCA5m3YcPV6LVnd2bZhOftfpEAcTyJWMcQIgemMvUu+5ZycJzwM0HyL+dgBEMKDvtYsCGyvizZPP4VM= timestamp=1749769573
+2025/06/13 06:06:13 2025-06-13 06:06:13 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:06:13 2025-06-13 06:06:13 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:06:13 2025-06-13 06:06:13 [INFO] SendGrid Event event=open email=651463018@crru.ac.th timestamp=2025-06-13 06:06:01
+2025/06/13 06:06:14 2025-06-13 06:06:14 [INFO] Signature Verification Headers signature=MEYCIQDVHxjlxDtpZt2Ch4j02exSP6KDRgN+yB9mobnfIUCj8QIhAJ7X6WZeCr1tqiGkD6nzVXZXYBqO0XnYEiMlheQyManq timestamp=1749769574
+2025/06/13 06:06:14 2025-06-13 06:06:14 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:06:14 2025-06-13 06:06:14 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:06:14 2025-06-13 06:06:14 [INFO] SendGrid Event event=click email=651463018@crru.ac.th timestamp=2025-06-13 06:06:04
+2025/06/13 06:06:21 2025-06-13 06:06:21 [INFO] Signature Verification Headers signature=MEUCIQCIxyxo9F+zGl3AKzxZ74s/KdLqyFg9ALg1FP6ua/BDTAIgAgVZ2mtnxy/A5HxKkuN30BuirscRUujyfMBL8IILvbA= timestamp=1749769581
+2025/06/13 06:06:21 2025-06-13 06:06:21 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:06:21 2025-06-13 06:06:21 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:06:21 2025-06-13 06:06:21 [INFO] SendGrid Event event=click email=651463018@crru.ac.th timestamp=2025-06-13 06:06:14
+2025/06/13 06:07:14 2025-06-13 06:07:14 [INFO] Config loaded public_key_configured=true
+2025/06/13 06:07:14 2025-06-13 06:07:14 [ERROR] Failed to initialize repository error=failed to ping database: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2025/06/13 06:12:46 2025-06-13 06:12:46 [INFO] Config loaded public_key_configured=true
+2025/06/13 06:12:46 2025-06-13 06:12:46 [ERROR] Failed to initialize repository error=failed to ping database: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2025/06/13 06:13:38 2025-06-13 06:13:38 [INFO] Config loaded public_key_configured=true
+2025/06/13 06:13:38 2025-06-13 06:13:38 [INFO] Server starting port=:8080
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] Signature Verification Headers signature=MEUCIQCeLYUCFcTfzOZ9khngl6fiWzMzZXEODC511XMpjPPT4AIgfR2FFi6Ia//vBO/o9LwgX4vY4zGXCq4YYaoOn6StPP8= timestamp=1749770038
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-13 06:13:58
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-13 06:13:58
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-13 06:13:58
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-13 06:13:58
+2025/06/13 06:13:58 2025-06-13 06:13:58 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/13 06:49:40 2025-06-13 06:49:40 [INFO] Config loaded public_key_configured=true
+2025/06/13 06:49:40 2025-06-13 06:49:40 [INFO] Server starting port=:8080
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] Signature Verification Headers signature=MEYCIQCdp+xZBobIjCWC7dsBtpGZr60xFNYVUTFHKGwdwc3hWAIhAL2w5KynppCEkk4EjYjaUfy6HiOBBgbOJmD41kslyAKB timestamp=1749772191
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] SendGrid Event event=processed email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=QkFFz82ikUuV0b5X35ppNw== status=
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] SendGrid Event event=deferred email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=7oR-EIqRoH5Gg-wRl2Ahpg== status=
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=1EZ6tFZEBYTPsAIhOtUWhA== status=
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=YVVL2NCvHHiaYF0xv8vutQ== status=
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=fEtsUd652qu0C_52oKUQdQ== status=
+2025/06/13 06:49:51 2025-06-13 06:49:51 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=3HdvlFDkRfeFBulfJ_ongw== status=5.0.0
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] SendGrid Event event=dropped email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=UkRXnos-kloOH1hYGneZ4A== status=5.0.0
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] Notification sent event=dropped email=example@test.com
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] SendGrid Event event=spamreport email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=Z0Hfj_wHAbX2LILOcOL69Q== status=
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] Notification sent event=spamreport email=example@test.com
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] SendGrid Event event=unsubscribe email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=KxsRVDCo9ICNAGQwgXzeWw== status=
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] SendGrid Event event=group_unsubscribe email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=dn1bBJPwdFDlDJJ4AhY-Tw== status=
+2025/06/13 06:49:52 2025-06-13 06:49:52 [INFO] SendGrid Event event=group_resubscribe email=example@test.com timestamp=2025-06-13 06:49:51 sg_event_id=lafsOqtMnctwtUoJRnZ-nA== status=
+2025/06/13 06:54:56 2025-06-13 06:54:56 [INFO] Config loaded public_key_configured=true
+2025/06/13 06:54:56 2025-06-13 06:54:56 [INFO] Server starting port=:8080
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] Signature Verification Headers signature=MEUCIQCwCD57dQR9FEoaGDRGcOKm63dLGZFF2YRXiEMdVzNP5gIgL5qc1myuDUhyGN5YSCl/dn/1v5gdZMHwOGmXmOW/f/M= timestamp=1749772508
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] Starting signature verification public_key_configured=true
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] Signature verification successful signature_valid=true
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=processed email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=66pVyNlEYWmq7K_2quaAiA== status=
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=deferred email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=YIzic0xJffwUm2eSQZAvhg== status=
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=delivered email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=PfPezYkjT2j2Q8yElBetaA== status=
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=open email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=ST9qpBhKuBRUZPP-WEprCA== status=
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=click email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=PJdD1jVIrq4KzZK1FZjjCg== status=
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=bounce email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=38j3NUuHKjbdPCcm7o593w== status=5.0.0
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] Notification sent event=bounce email=example@test.com
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=dropped email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=ROU0f0YCZKOgO5SCJdfERA== status=5.0.0
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] Notification sent event=dropped email=example@test.com
+2025/06/13 06:55:08 2025-06-13 06:55:08 [INFO] SendGrid Event event=spamreport email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=oiQ8IyizJp-iUeQUvfV1Kg== status=
+2025/06/13 06:55:09 2025-06-13 06:55:09 [INFO] Notification sent event=spamreport email=example@test.com
+2025/06/13 06:55:09 2025-06-13 06:55:09 [INFO] SendGrid Event event=unsubscribe email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=K8mhZS-C1nBQT518mD9qMw== status=
+2025/06/13 06:55:09 2025-06-13 06:55:09 [INFO] SendGrid Event event=group_unsubscribe email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=nuN_ztWtHMg76MHPdpjL1A== status=
+2025/06/13 06:55:09 2025-06-13 06:55:09 [INFO] SendGrid Event event=group_resubscribe email=example@test.com timestamp=2025-06-13 06:55:08 sg_event_id=tDeOzABntYp_HOjQzW2_lw== status=

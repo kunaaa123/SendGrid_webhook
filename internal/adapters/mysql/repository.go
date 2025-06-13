@@ -26,13 +26,24 @@ func NewRepository(dsn string) (*Repository, error) {
 }
 
 func (r *Repository) SaveEvent(event domain.SendgridEvent) error {
-
 	if event.Email == "" || event.Event == "" || event.Timestamp == 0 {
 		return domain.ErrInvalidEvent
 	}
 
-	const query = `INSERT INTO sendgrid_events (email, event_type, timestamp) VALUES (?, ?, ?)`
-	_, err := r.db.Exec(query, event.Email, event.Event, event.Timestamp)
+	const query = `
+        INSERT INTO sendgrid_events (
+            email, 
+            event_type, 
+            timestamp
+        ) VALUES (?, ?, ?)`
+
+	_, err := r.db.Exec(
+		query,
+		event.Email,
+		event.Event,
+		event.Timestamp,
+	)
+
 	if err != nil {
 		return fmt.Errorf("failed to save event: %w", err)
 	}

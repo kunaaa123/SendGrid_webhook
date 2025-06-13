@@ -45,10 +45,7 @@ func init() {
 }
 
 func NewConfig() *Config {
-	// Debug logging
 	publicKey := os.Getenv("SENDGRID_PUBLIC_KEY")
-	log.Printf("Debug: SENDGRID_PUBLIC_KEY length: %d", len(publicKey))
-	log.Printf("Debug: SENDGRID_PUBLIC_KEY first chars: %s", publicKey[:min(len(publicKey), 20)])
 
 	return &Config{
 		ServerPort:        getEnvOrDefault("SERVER_PORT", defaultConfig["SERVER_PORT"]),
@@ -57,13 +54,6 @@ func NewConfig() *Config {
 		LogFile:           getEnvOrDefault("LOG_FILE", "sendgrid_events.log"),
 		SendgridPublicKey: publicKey,
 	}
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
 }
 
 func getEnvOrDefault(key, defaultValue string) string {

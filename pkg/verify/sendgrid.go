@@ -46,16 +46,7 @@ func VerifySignature(payload []byte, signature string, timestamp string, publicK
 	h.Write(payload)
 	hash := h.Sum(nil)
 
-	details := fmt.Sprintf("Payload length: %d, Timestamp: %s", len(payload), timestamp)
-	fmt.Printf("Verification Details: %s\n", details)
-
 	isValid := ecdsa.Verify(ecdsaKey, hash, sig.R, sig.S)
-
-	if isValid {
-		fmt.Printf("Signature verification successful\n")
-	} else {
-		fmt.Printf("Signature verification failed\n")
-	}
 
 	return isValid, nil
 }

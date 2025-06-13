@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -16,40 +15,28 @@ import (
 )
 
 func main() {
-	// สร้าง config
+
 	cfg := config.NewConfig()
 
-	// สร้าง logger ก่อน
 	logger, err := logger.NewLogger(cfg.LogFile)
 	if err != nil {
 		log.Fatalf("Failed to initialize logger: %v", err)
 	}
 
-	// เพิ่ม logging เพื่อตรวจสอบค่า public key
-	logger.Info("Public Key Detail",
-		"key_length", len(cfg.SendgridPublicKey),
-		"has_key", cfg.SendgridPublicKey != "",
-		"raw_key", cfg.SendgridPublicKey)
-
 	logger.Info("Config loaded",
 		"public_key_configured", cfg.SendgridPublicKey != "")
 
-	// Initialize repository
 	repo, err := mysql.NewRepository(cfg.DatabaseDSN)
 	if err != nil {
 		logger.Error("Failed to initialize repository", "error", err)
 		log.Fatal(err)
 	}
 
-	// Initialize notifier
 	notifier := lark.NewNotifier(cfg.LarkWebhookURL)
 
-	// Initialize service
 	service := core.NewEventService(repo, notifier, logger)
 
-	// Setup HTTP handler
 	http.HandleFunc("/webhook", makeWebhookHandler(service, logger, cfg))
-	http.HandleFunc("/test", makeTestHandler(logger))
 
 	logger.Info("Server starting", "port", cfg.ServerPort)
 	if err := http.ListenAndServe(cfg.ServerPort, nil); err != nil {
@@ -71,7 +58,6 @@ func makeWebhookHandler(service *core.EventService, logger *logger.Logger, cfg *
 			return
 		}
 
-		// ดึง signature และ timestamp จาก header
 		signature := r.Header.Get("X-Twilio-Email-Event-Webhook-Signature")
 		timestamp := r.Header.Get("X-Twilio-Email-Event-Webhook-Timestamp")
 
@@ -83,19 +69,16 @@ func makeWebhookHandler(service *core.EventService, logger *logger.Logger, cfg *
 			}
 		}
 
-		// อ่าน body
 		bodyBytes, err := readBody(r)
 		if err != nil {
 			http.Error(w, "Cannot read body", http.StatusInternalServerError)
 			return
 		}
 
-		// Log headers ที่เกี่ยวข้องกับ Signature
 		logger.Info("Signature Verification Headers",
 			"signature", signature,
 			"timestamp", timestamp)
 
-		// ตรวจสอบ signature ถ้ามีการตั้งค่า public key
 		if cfg.SendgridPublicKey != "" {
 			logger.Info("Starting signature verification",
 				"public_key_configured", true)
@@ -138,24 +121,6 @@ func makeWebhookHandler(service *core.EventService, logger *logger.Logger, cfg *
 					"error", err)
 			}
 		}
-
-		w.WriteHeader(http.StatusOK)
-	}
-}
-
-func makeTestHandler(logger *logger.Logger) http.HandlerFunc {
-	return func(w http.ResponseWriter, r *http.Request) {
-		logger.Info("Received Headers:")
-		for name, values := range r.Header {
-			logger.Info(fmt.Sprintf("%s: %s", name, values))
-		}
-
-		bodyBytes, err := readBody(r)
-		if err != nil {
-			logger.Error("Cannot read body", "error", err)
-			return
-		}
-		logger.Info("Received Body:", "body", string(bodyBytes))
 
 		w.WriteHeader(http.StatusOK)
 	}
