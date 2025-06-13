@@ -138,8 +138,9 @@ ngrok http 8080 ## ติดตั้ง Ngrok เพื่อทำให้เ
 
 <!-- แก้ไขจากเดิม -->
 ![SendGrid Event Screenshot](docs/images/sendgrid.png)
-![Lark Bot Screenshot](docs/images/larkbot.png)
+![Log Data Screenshot](docs/images/log.png)
 ![MySQL Data Screenshot](docs/images/mysql.png)
+![Lark Bot Screenshot](docs/images/larkbot.png)
 
 
 
