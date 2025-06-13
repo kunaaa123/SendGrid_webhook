@@ -136,11 +136,15 @@ ngrok http 8080 ## ติดตั้ง Ngrok เพื่อทำให้เ
 
   #  ตัวอย่างข้อมูล
 
-<!-- แก้ไขจากเดิม -->
-![SendGrid Event Screenshot](docs/images/sendgrid.png)
-![Log Data Screenshot](docs/images/log.png)
-![MySQL Data Screenshot](docs/images/mysql.png)
-![Lark Bot Screenshot](docs/images/larkbot.png)
+| SendGrid Events | Log Data |
+|:---:|:---:|
+| ![SendGrid Event Screenshot](docs/images/sendgrid.png) | ![Log Data Screenshot](docs/images/log.png) |
+| **SendGrid Webhook Events** - แสดงข้อมูล Events ที่ได้รับจาก SendGrid | **Log ข้อมูล** - บันทึกการทำงานของระบบ |
+
+| MySQL Database | Lark Bot |
+|:---:|:---:|
+| ![MySQL Data Screenshot](docs/images/mysql.png) | ![Lark Bot Screenshot](docs/images/larkbot.png) |
+| **ข้อมูลใน MySQL** - การจัดเก็บข้อมูล Events ในฐานข้อมูล | **การแจ้งเตือน Lark** - ตัวอย่างการแจ้งเตือนผ่าน Lark Bot |
 
 
 
